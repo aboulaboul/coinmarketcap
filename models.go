@@ -109,7 +109,7 @@ type CoinMktCapUSD struct {
 		CmcRank           int         `json:"cmc_rank"`
 		LastUpdated       time.Time   `json:"last_updated"`
 		Quote             struct {
-			Currency `json:"EUR"`
+			Currency `json:"USD"`
 		} `json:"quote"`
 	} `json:"data"`
 }
